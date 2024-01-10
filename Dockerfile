@@ -152,7 +152,7 @@ COPY csrc csrc
 RUN cd csrc/cauchy && pip install . && cd ../../ \
     && cd csrc/fftconv && pip install . && cd ../../ \
     && cd .. && rm -rf csrc
-
+asdasd
 # COPY applications/ applications
 # RUN pip install applications/smyrf/forks/transformers/ \
 #     && pip install applications/smyrf/ \
